@@ -88,6 +88,14 @@ footer{
   color: var(--E-color);
 }
 
+.vez-jogada span.X{
+  color: var(--X-color);
+}
+
+.vez-jogada span.O{
+  color: var(--O-color);
+}
+
 button{
   padding: 0.8rem 1.5rem;
   border: none;
