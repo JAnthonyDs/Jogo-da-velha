@@ -1,8 +1,8 @@
 :root{
-  --O-color:#2196f3;
-  --X-color: #f44336;
+  --O-color: skyblue;
+  --X-color: #d9b310;
   --green: #4caf50;
-  --E-color: #777;
+  --E-color: #328cc1;
 }
 
 * {
@@ -18,13 +18,13 @@ body{
 
   font-family: sans-serif;
   height: 100vh;
-  background-color: #eee;
+  background-color: #1d2731;
 }
 
 .title{
   text-align: center;
   font-size: 3rem;
-  color: #555;
+  color: #d9b310;
   margin-bottom: 2rem;
 }
 
@@ -34,8 +34,8 @@ body{
 
 .board{
   display: grid;
-  grid-template-columns: repeat(3,240px);
-  grid-template-rows: repeat(3,240px);
+  grid-template-columns: repeat(3,120px);
+  grid-template-rows: repeat(3,120px);
   gap: 1rem;
 }
 
@@ -44,7 +44,7 @@ body{
   align-items: center;
   justify-content: center;
 
-  background-color: white;
+  background-color: #0b3c5d;
   border-radius: 5px;
   font-size: 3rem;
   font-weight: bold;

@@ -62,9 +62,9 @@ function TicTacToe() {
     <main>
       <h1 className="title">Jogo da velha</h1>
       <div className="vez-jogada">
-        Vez de <span className={currentPlayer}>{currentPlayer}</span>
+        <span className={currentPlayer}>Vez de {currentPlayer}</span>
       </div>
-      
+
       <div className={`board ${winner ? "game-over" : ""}`}>
         {board.map((item, index) => (
           <div
@@ -86,7 +86,7 @@ function TicTacToe() {
             </h2>
             :
             <h2 className="winner-message">
-              <span className={winner}>{winner}</span> venceu!
+              <span className={winner}>{winner} venceu!</span> 
             </h2>
           }
 
